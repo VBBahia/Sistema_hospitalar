@@ -3,60 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Cadastro de Pacientes</title>
+    <h1>Sistema de Cadastro de Pacientes</h1>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="bg-light">
+<body>
     <div class="container mt-5">
         <div class="text-center mb-4">
-            <h1 class="text-primary">Sistema de Cadastro de Pacientes</h1>
-            <p class="text-muted">Gerencie informações de pacientes de forma simples e eficiente.</p>
+            <h1 class="display-4">🏥 Sistema de Cadastro de Pacientes</h1>
+            <p class="lead">Um sistema simples para gerenciar informações de pacientes.</p>
         </div>
 
-        <div class="card shadow-sm">
-            <div class="card-body">
-                <h2 class="card-title text-success">Descrição</h2>
-                <p>Este programa em Python permite cadastrar informações de pacientes, como nome, idade, altura, peso, CPF, contato, estado civil, alergias e motivo da consulta. Os dados são validados e armazenados em um arquivo CSV.</p>
-            </div>
-        </div>
+Este programa em **Python** permite cadastrar informações de pacientes, como:
 
-        <div class="card shadow-sm mt-4">
-            <div class="card-body">
-                <h2 class="card-title text-info">Funções</h2>
-                <ul>
-                    <li>Validação de dados de entrada (nome, idade, altura, peso, CPF, contato).</li>
-                    <li>Armazenamento dos dados em um arquivo CSV.</li>
-                    <li>Interface interativa via console para coleta de dados.</li>
-                </ul>
-            </div>
-        </div>
+- Nome
+- Idade
+- Altura
+- Peso
+- CPF
+- Contato
+- Estado civil
+- Alergias
+- Motivo da consulta
 
-        <div class="card shadow-sm mt-4">
-            <div class="card-body">
-                <h2 class="card-title text-warning">Como Usar</h2>
-                <ol>
-                    <li>Certifique-se de ter o Python instalado.</li>
-                    <li>Salve os arquivos <code>Pacientes.py</code> e <code>Main.py</code> no mesmo diretório.</li>
-                    <li>Execute o comando <code>python Main.py</code> no terminal.</li>
-                    <li>Siga as instruções no terminal.</li>
-                </ol>
-            </div>
-        </div>
+Os dados são validados e armazenados em um arquivo **CSV**.
 
-        <div class="card shadow-sm mt-4">
-            <div class="card-body">
-                <h2 class="card-title text-danger">Estrutura de Arquivos</h2>
-                <ul>
-                    <li><code>Pacientes.py</code>: Contém a classe Pacientes e suas subclasses para validação de dados.</li>
-                    <li><code>Main.py</code>: Contém a lógica principal do programa e a interação com o usuário.</li>
-                    <li><code>dadosPacientes.csv</code>: Arquivo CSV onde os dados dos pacientes são armazenados.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+---
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+## ⚙️ Funções:
+
+- ✅ **Validação de dados de entrada** (nome, idade, altura, peso, CPF, contato).
+- 💾 **Armazenamento dos dados** em um arquivo CSV.
+- 🖥️ **Interface interativa via console** para coleta de dados.
+
+---
+
+## 🚀 Como Usar:
+
+1. Certifique-se de ter o **Python** instalado.
+2. Salve os arquivos `Pacientes.py` e `Main.py` no mesmo diretório.
+3. Execute o comando abaixo no terminal:
+
+   ```bash
+   python Main.py
+
+    <img src="img_background.png" alt="Descrição da Imagem" width="300">
 </body>
 </html>
