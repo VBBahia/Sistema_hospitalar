@@ -1,4 +1,4 @@
-from Main import (Pacientes, Pacientes_nome, Pacientes_idade, Pacientes_peso,
+from main import (Pacientes, Pacientes_nome, Pacientes_idade, Pacientes_peso,
                        Pacientes_altura, Pacientes_cpf, Pacientes_contato)
 
 import csv
